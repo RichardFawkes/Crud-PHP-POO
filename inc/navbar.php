@@ -9,8 +9,8 @@
         </button>
 
         <!-- Brand -->
-        <a class="navbar-brand" href="#">
-          <img src="https://startupi.com.br/wp-content/uploads/2015/05/Cubo.png" height="25" alt="" loading="lazy" />
+        <a class="navbar-brand" href="index.php">
+          <img src="https://logodownload.org/wp-content/uploads/2020/02/midway-financeira-logo.png" height="25" alt="" loading="lazy" />
         </a>
 
         <!-- Right links -->

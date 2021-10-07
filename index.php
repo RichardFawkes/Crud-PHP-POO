@@ -30,54 +30,35 @@
   <!--Main Navigation-->
 
   <main>
-  <!-- <div class="container main">
-      <h3>Cadastro do devedor</h3>
-      <div class="card">
-      <form action="" method="post" >
-          <div class="row">
-          <div class="col-md-4">
-          <label for="nome">Nome Completo:</label>
-          <input type="text" class="form-control" name="nome" id="nome">
-          </div>
-          <div class="col-md-4">
-          <label for="cpf_cnpj">CPF/CNPJ:</label>
-          <input type="number" class="form-control" name="cpf_cnpj" id="cpf_cnpj">
-          </div>
-          <div class="col-md-4">
-          <label for="dataNasc">Data Nascimento :</label>
-          <input type="date" class="form-control " name="data_nascimento" id="data_nascimento">
-          </div>
-          </div>
-
-          <div class="row">
-          <div class="col-md-4">
-          <label for="endereco">Endereço:</label>
-          <input type="text" class="form-control" name="endereco" id="endereco">
-          </div>
-          <div class="col-md-4">
-          <label for="descri_titulo">Descrição do título:</label>
-          <input type="number" class="form-control" name="descri_titulo" id="descri_titulo">
-          </div>
-          <div class="col-md-4">
-          <label for="valor">Valor :</label>
-          <input type="int" class="form-control " name="valor" id="valor">
-          </div>
-          <div class="col-md-4">
-          <label for="valor">Ultima Atualização :</label>
-          <input type="int" class="form-control " name="update_at" id="update_at" disabled>
-          </div>
-          </div>
-<button class="btn btn-success">Cadastrar</button>
-      </form>
+  <div class="container">
+  <h1>   </h1>
+  <p></p>
+  <div class="container">
+</div>
   </div>
-  </div> -->
+  <div class="container" id=container>
+  Bem-vindo ao
+  <div id=flip>
+    <div><div>Hello Word</div></div>
+    <div><div>CRUD PHP POO</div></div>
+    <div><div>by Richard Fawkes 😎</div></div>
+    <p class="container">Uma máquina consegue fazer o trabalho de 50 homens ordinários. Nenhuma máquina consegue fazer o trabalho de um homem extraordinário. </p>
+
+  </div>
+  
+</div>
+
+
   </main>
+  
   <!--Main layout-->
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript" src="js/admin.js"></script>
-
+<script>
+  
+</script>
 </body>
 
 </html>
