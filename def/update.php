@@ -49,7 +49,11 @@ if(isset($_POST['nome'])){
         ':update_at' => $datetime
       ));
     
-    echo 'Atualizado com Sucesso<br>ID_',$_POST['idUser'];
+      echo "<script language='javascript'>";
+      echo 'alert("Atualizado! com Sucesso!");';
+      echo 'window.location.href="../editar.php?id='.$_POST['idUser'].'";';
+      echo "</script>";
+   
 }
  
 

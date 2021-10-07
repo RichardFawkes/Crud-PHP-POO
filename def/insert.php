@@ -36,7 +36,10 @@ function tirarCaracteresEspeciais($string){
 if(isset($_POST['nome'])){
     $sql = $conn->prepare("INSERT INTO clientes VALUES (null,?,?,?,?,?,?,?,?)");
     $sql -> execute(array($_POST['nome'],$cpf_e_cnpj,$_POST['data_nascimento'],$_POST['endereco'],$_POST['descri_titulo'],$_POST['valor'],$_POST['data_venc'],$datetime));
-    echo 'Inserido com Sucesso<br>',$cpf_e_cnpj ;
+    echo "<script language='javascript'>";
+    echo 'alert("Criado Usuario! com Sucesso!");';
+    echo 'window.location.href="../listar-todos.php";';
+    echo "</script>";
 }
  
 

@@ -31,7 +31,7 @@
   <!--Main Navigation-->
 
   <main>
-  <div class="container main card" style="margin-top:60px">
+  <div class="container main " style="margin-top:60px">
 		<form method="POST" id="form-pesquisa" action="">
 			<label>Buscar Devedores: </label>
 			<input class="form-control" type="text" name="pesquisa" id="pesquisa" placeholder="Digite o nome do usuário" >
@@ -44,12 +44,11 @@
       <th scope="col">Valor.</th>
       <th scope="col">Vencimento</th>
       <th scope="col">Editar/Remover</th>
-      <th scope="col"></th>
 
     </tr>
   </thead>
   <tbody class="resultado">
-    
+
   </tbody>
 </table>
 	

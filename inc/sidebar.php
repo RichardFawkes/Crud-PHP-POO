@@ -18,7 +18,7 @@
       echo "active";
     }
           ?>">
-            <i class="fas fa-chart-area fa-fw me-3"></i><span>Cadastrar Devedor</span>
+            <i class="fas fa-user-plus fa-fw me-3"></i><span>Cadastrar Devedor</span>
           </a>
 
         </div>

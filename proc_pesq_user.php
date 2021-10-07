@@ -16,8 +16,8 @@ foreach($fetchClientes as $key => $value){
       <td >'.$value['nome'].'</td>
 	  <td >'.$value['valor'].'</td>
 	  <td >'.$value['data_venc'].'</td>
-	  <td><a href="editar.php?id='.$value['id'].'"class="btn btn-primary">Editar</a></td>
-	  <td><a href="def/delete.php?id='.$value['id'].'"class="btn btn-danger">Remover</a></td>
+	  <td><a href="editar.php?id='.$value['id'].'"class="btn btn-primary"><i class="fas fa-user-edit"></i>Editar</a></td>
+	  <td><a href="def/delete.php?id='.$value['id'].'"class="btn btn-danger"><i class="fas fa-trash"></i> Remover</a></td>
 
 
       </tr>';

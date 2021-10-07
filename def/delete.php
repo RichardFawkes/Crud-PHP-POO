@@ -8,9 +8,11 @@ if(isset($_GET['id'])){
     $sql->bindParam(':id', $_GET['id']);
     $sql->execute();
     
-    echo 'Deletado com Sucesso<br>ID_',$_GET['id'];
-}
+    echo "<script language='javascript'>";
+    echo 'alert("Usuario Removido! com Sucesso!");';
+    echo 'window.location.href="../listar-todos.php";';
+    echo "</script>";
  
-
+}
 ?>
 
