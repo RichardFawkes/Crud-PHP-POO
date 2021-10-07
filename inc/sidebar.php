@@ -12,6 +12,15 @@
             <i class="fas fa-users fa-fw me-3"></i><span>Listar Devedores</span></a>
 
 
+            <a href="buscar.php" class="list-group-item list-group-item-action py-2 ripple <?php 
+    if ($url == "/Teste-PHP-CRUD/buscar.php") {
+      echo "active";
+    }
+          ?>">
+            <i class="fas fa-search fa-fw me-3"></i></i><span>Buscar Devedor</span>
+          </a>
+            
+
 
           <a href="cadastro.php" class="list-group-item list-group-item-action py-2 ripple <?php 
     if ($url == "/Teste-PHP-CRUD/cadastro.php") {
