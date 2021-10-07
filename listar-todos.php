@@ -34,7 +34,7 @@
   <div class="container main card" style="margin-top:60px">
 		<form method="POST" id="form-pesquisa" action="">
 			<label>Buscar Devedores: </label>
-			<input class="form-control" type="text" name="pesquisa" id="pesquisa" placeholder="Digite o nome do usuário">
+			<input class="form-control" type="text" name="pesquisa" id="pesquisa" placeholder="Digite o nome do usuário" >
 		</form>
 		<table class="table table-striped">
   <thead>

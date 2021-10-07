@@ -17,7 +17,7 @@ foreach($fetchClientes as $key => $value){
 	  <td >'.$value['valor'].'</td>
 	  <td >'.$value['data_venc'].'</td>
 	  <td><a href="editar.php?id='.$value['id'].'"class="btn btn-primary">Editar</a></td>
-	  <td><a href="remover.php?id='.$value['id'].'"class="btn btn-danger">Remover</a></td>
+	  <td><a href="def/delete.php?id='.$value['id'].'"class="btn btn-danger">Remover</a></td>
 
 
       </tr>';
